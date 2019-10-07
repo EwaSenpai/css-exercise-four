@@ -20,6 +20,11 @@ body {
   letter-spacing: 2px;
 }
 
+h1 {
+  margin-bottom: 10px;
+}
+
+
 div {
   box-sizing: border-box;
   display: inline;
@@ -75,7 +80,7 @@ div {
 
 .container {
   width: 100%;
-  max-width: 500px
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -84,54 +89,41 @@ div {
 
 /* tablet display*/
 @media only screen and (min-width: 575px) {
-  
+
    div {
+    box-sizing: border-box;
+    display: inline-block;
     margin: 1%;
     width: 48%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    height: 300px;
     overflow: hidden;
-  }
   }
 
   .baku {
-    background-image:url('../images/baku.jpg')
-    ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-image:url('../images/baku.jpg');
 
   }
 
   .london {
     background-image:url('../images/london.png')
     ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center ;
 
   }
 
   .madrid {
     background-image:url('../images/madrid.jpg')
     ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center ;
+
   }
 
   .rome {
     background-image:url('../images/rome.jpg')
     ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center ;
 
   }
 
   .container {
     box-sizing: border-box;
-    width: ;
     margin: auto;
     height: auto;
     overflow: hidden;
@@ -143,54 +135,14 @@ div {
 @media only screen and (min-width: 991px){
 
    div {
-    box-sizing: border-box;
-    margin: 1% auto;
-    width:
-    float:left;
-
+    height: 280px;
+    width: 23%;
   }
+   .container {
+     max-width: 1000px;
+   }
 
-  .container {
-    box-sizing: border-box;
-    width: 100%
-    margin: auto;
-  }
-
-  .preview-baku {
-    background-image:url('../images/baku.jpg')
-    ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 20%;
-
-  }
-
-  .london {
-    background-image:url('../images/london.png')
-    ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center ;
-
-  }
-
-  .madrid {
-    background-image:url('../images/madrid.jpg')
-    ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-top; 10px;
-  }
-
-  .rome {
-    background-image:url('../images/rome.jpg')
-    ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center ;
-    margin-top: 10px;
-  }
-
+   .baku {
+     background-position: center;
+   }
 }
